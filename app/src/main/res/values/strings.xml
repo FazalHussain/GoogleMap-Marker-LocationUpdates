@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">VRA_Emergency</string>
+    <string name="google_map_v2_api">AIzaSyAgQ_Y8u9dZNIyO220-E_vshfXw2tTEyjs</string>
+
+    <string name="google_map_v2_place_api">AIzaSyBPvkbTHENEr8s7fMeTK_hLp4Q1GQTmLus</string>
+
+    <string name="map_marker_icon">&#xf041;</string>
+
+    <string name="title_activity_route">RouteActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

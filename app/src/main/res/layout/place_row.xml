@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet Poison Help Line"
+            android:layout_centerVertical="true"
+            android:id="@+id/place"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_alignParentLeft="true"
+            android:paddingRight="6dp"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/map_marker_icon"
+            android:layout_below="@+id/place"
+            android:id="@+id/marker_icon"
+            android:layout_alignParentLeft="true"
+            android:paddingRight="6dp"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet Poison  Line"
+            android:id="@+id/distance"
+            android:layout_below="@+id/place"
+            android:layout_toRightOf="@+id/marker_icon"
+            android:paddingRight="6dp"/>
+
+        <ImageView
+            android:paddingLeft="12dp"
+            android:id="@+id/go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/go_blue"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
